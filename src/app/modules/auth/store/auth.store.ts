@@ -1,6 +1,7 @@
 // Store de autenticación — maneja el estado de sesión del usuario
 import { computed } from '@angular/core';
 import { signalStore, withState, withMethods, patchState, withComputed } from '@ngrx/signals';
+import { withDevtools } from '@angular-architects/ngrx-toolkit';
 
 // Interfaz del estado de autenticación
 export interface AuthState {
@@ -18,6 +19,9 @@ const initialAuthState: AuthState = {
 
 export const AuthStore = signalStore(
   { providedIn: 'root' },
+
+  // ─── DevTools ──────────────────────────────────────────────────────────
+  withDevtools('auth'),
 
   // ─── Estado inicial ──────────────────────────────────────────────────────
   withState<AuthState>(initialAuthState),

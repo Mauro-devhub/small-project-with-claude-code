@@ -82,9 +82,13 @@ import { computed }                      from '@angular/core';
 import { [Entity]Service }               from '../services/[name-module].service';
 import { [Entity]Model }                 from '../models/[name-module].model';
 import { [Entity]State, initial[Entity]State } from './[name-module].store';
+import { withDevtools } from '@angular-architects/ngrx-toolkit';
 
 export const [Entity]Store = signalStore(
   { providedIn: 'root' },
+
+  // ─── DevTools ──────────────────────────────────────────────────────────
+  withDevtools('[Entity]'),
 
   // ─── Estado inicial ──────────────────────────────────────────────────────
   withState<[Entity]State>(initial[Entity]State),
