@@ -1,0 +1,10 @@
+<div class="toggle-group">
+  @for (option of options(); track option; let i = $index) {
+    <button
+      type="button"
+      class="toggle-btn"
+      [class.active]="isActive(i)"
+      (click)="selectOption(i)"
+    >{{ option }}</button>
+  }
+</div>

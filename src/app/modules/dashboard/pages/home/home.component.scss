@@ -1,0 +1,14 @@
+@use 'variables' as *;
+
+// Página home del dashboard
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.home-content {
+  flex: 1;
+  background-color: $color-white;
+}

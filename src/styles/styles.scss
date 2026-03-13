@@ -1,0 +1,21 @@
+@use 'variables' as *;
+
+/* Estilos globales del proyecto */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  color: $color-neutral-900;
+  background-color: $color-neutral-100;
+  line-height: $line-height-base;
+}

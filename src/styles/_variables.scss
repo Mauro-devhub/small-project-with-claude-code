@@ -1,0 +1,58 @@
+// ─── Colores ───────────────────────────────────────────────────────────────
+$color-primary-300:   #7B9CFF;
+$color-primary-500:   #3D6FFF;
+$color-primary-700:   #1A4ACC;
+
+$color-neutral-100:   #F5F5F5;
+$color-neutral-200:   #EEEEEE;
+$color-neutral-400:   #9E9E9E;
+$color-neutral-600:   #757575;
+$color-neutral-900:   #212121;
+
+$color-white:         #FFFFFF;
+
+$color-error:         #E53935;
+$color-success:       #43A047;
+$color-warning:       #FB8C00;
+
+// ─── Tipografía ────────────────────────────────────────────────────────────
+$font-family-base:    'Inter', sans-serif;
+
+$font-size-xs:        0.75rem;   // 12px
+$font-size-sm:        0.875rem;  // 14px
+$font-size-base:      1rem;      // 16px
+$font-size-lg:        1.125rem;  // 18px
+$font-size-xl:        1.25rem;   // 20px
+$font-size-2xl:       1.5rem;    // 24px
+
+$font-weight-regular: 400;
+$font-weight-medium:  500;
+$font-weight-bold:    700;
+
+$line-height-base:    1.5;
+$line-height-tight:   1.25;
+
+// ─── Espaciados ────────────────────────────────────────────────────────────
+$spacing-1:  0.25rem;
+$spacing-2:  0.5rem;
+$spacing-3:  0.75rem;
+$spacing-4:  1rem;
+$spacing-6:  1.5rem;
+$spacing-8:  2rem;
+$spacing-12: 3rem;
+
+// ─── Bordes ────────────────────────────────────────────────────────────────
+$border-radius-sm:    4px;
+$border-radius-md:    8px;
+$border-radius-lg:    16px;
+$border-radius-full:  9999px;
+
+// ─── Sombras ───────────────────────────────────────────────────────────────
+$shadow-card:   0 2px 8px rgba(0, 0, 0, 0.08);
+$shadow-modal:  0 8px 32px rgba(0, 0, 0, 0.16);
+
+// ─── Breakpoints ───────────────────────────────────────────────────────────
+$breakpoint-sm:  576px;
+$breakpoint-md:  768px;
+$breakpoint-lg:  992px;
+$breakpoint-xl:  1200px;

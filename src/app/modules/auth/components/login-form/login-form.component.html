@@ -1,0 +1,29 @@
+<h2 class="form-title">{{ title() }}</h2>
+
+<form (submit)="$event.preventDefault(); onSubmit()" class="form">
+  <app-input-field
+    label="Correo"
+    type="email"
+    placeholder="example@gmail.com"
+    [value]="email()"
+    (valueChange)="email.set($event)"
+    [errors]="emailErrors()"
+  />
+
+  <app-input-field
+    label="Contraseña"
+    type="password"
+    placeholder="******"
+    [value]="password()"
+    (valueChange)="password.set($event)"
+    [errors]="passwordErrors()"
+  />
+
+  <app-toggle-button-group
+    [options]="toggleOptions"
+    [activeIndex]="activeToggleIndex()"
+    (activeIndexChange)="onToggleChange($event)"
+  />
+
+  <app-submit-button [label]="submitLabel()" />
+</form>

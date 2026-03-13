@@ -1,0 +1,17 @@
+@if (visible()) {
+  <div class="modal-overlay" (click)="onOverlayClick($event)">
+    <div class="modal-card">
+      @if (title()) {
+        <h3 class="modal-title">{{ title() }}</h3>
+      }
+
+      <div class="modal-body">
+        <ng-content />
+      </div>
+
+      <div class="modal-footer">
+        <button class="modal-btn" (click)="onClose()">{{ closeLabel() }}</button>
+      </div>
+    </div>
+  </div>
+}

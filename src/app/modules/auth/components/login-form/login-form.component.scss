@@ -1,0 +1,18 @@
+@use 'variables' as *;
+
+// Estilos del formulario de login/registro
+
+$color-black: #000000;
+
+.form-title {
+  font-size: $font-size-2xl;
+  font-weight: $font-weight-bold;
+  color: $color-black;
+  margin-bottom: $spacing-6;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-4;
+}

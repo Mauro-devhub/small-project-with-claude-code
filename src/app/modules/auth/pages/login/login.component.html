@@ -1,0 +1,13 @@
+<div class="login-container">
+  <div class="login-card">
+    <app-login-form (formSubmit)="onFormSubmit($event)" />
+  </div>
+</div>
+
+<app-modal
+  title="Acceso restringido"
+  [visible]="showRedirectModal()"
+  (closed)="onCloseModal()"
+>
+  Para acceder a recursos internos del producto debes iniciar sesión
+</app-modal>

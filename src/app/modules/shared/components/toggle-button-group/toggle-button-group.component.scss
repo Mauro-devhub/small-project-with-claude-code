@@ -1,0 +1,40 @@
+@use 'variables' as *;
+
+// Grupo de botones tipo toggle con transición animada
+
+$color-black: #000000;
+
+.toggle-group {
+  display: flex;
+  border-radius: $border-radius-full;
+  overflow: hidden;
+  border: 1px solid $color-neutral-200;
+  position: relative;
+  background-color: $color-neutral-100;
+}
+
+.toggle-btn {
+  flex: 1;
+  padding: $spacing-3 $spacing-4;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-medium;
+  font-family: $font-family-base;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: $color-neutral-400;
+  border-radius: $border-radius-full;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  z-index: 1;
+
+  &.active {
+    background-color: $color-black;
+    color: $color-white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  &:not(.active):hover {
+    color: $color-neutral-600;
+  }
+}

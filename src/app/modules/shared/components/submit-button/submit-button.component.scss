@@ -1,0 +1,28 @@
+@use 'variables' as *;
+
+// Estilos del botón de submit reutilizable
+
+$color-black: #000000;
+
+.submit-btn {
+  width: 100%;
+  padding: $spacing-3 $spacing-4;
+  font-size: $font-size-base;
+  font-weight: $font-weight-medium;
+  font-family: $font-family-base;
+  background-color: $color-black;
+  color: $color-white;
+  border: none;
+  border-radius: $border-radius-full;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.85;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}

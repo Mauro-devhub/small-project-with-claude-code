@@ -1,0 +1,21 @@
+@use 'variables' as *;
+
+// Página de Login/Register — solo layout
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: $color-white;
+}
+
+.login-card {
+  background-color: $color-white;
+  border-radius: $border-radius-lg;
+  box-shadow: $shadow-card;
+  border: 1px solid $color-neutral-200;
+  padding: $spacing-6;
+  width: 100%;
+  max-width: 340px;
+}

@@ -1,0 +1,17 @@
+<div class="form-field">
+  <label>{{ label() }}</label>
+  <input
+    [type]="type()"
+    [ngModel]="value()"
+    (ngModelChange)="onInput($event)"
+    [ngModelOptions]="{standalone: true}"
+    (blur)="onBlur()"
+    [placeholder]="placeholder()"
+    [class.invalid]="isInvalid()"
+  />
+  @for (error of errors(); track error) {
+    @if (touched()) {
+      <span class="error-message">{{ error }}</span>
+    }
+  }
+</div>
