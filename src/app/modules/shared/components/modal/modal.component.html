@@ -1,16 +1,16 @@
 @if (visible()) {
-  <div class="modal-overlay" (click)="onOverlayClick($event)">
-    <div class="modal-card">
+  <div class="modal-overlay" data-testid="modal-overlay" (click)="onOverlayClick($event)">
+    <div class="modal-card" data-testid="modal-card">
       @if (title()) {
-        <h3 class="modal-title">{{ title() }}</h3>
+        <h3 class="modal-title" data-testid="modal-title">{{ title() }}</h3>
       }
 
-      <div class="modal-body">
+      <div class="modal-body" data-testid="modal-body">
         <ng-content />
       </div>
 
       <div class="modal-footer">
-        <button class="modal-btn" (click)="onClose()">{{ closeLabel() }}</button>
+        <button class="modal-btn" data-testid="modal-btn-close" (click)="onClose()">{{ closeLabel() }}</button>
       </div>
     </div>
   </div>

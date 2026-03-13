@@ -1,7 +1,8 @@
-<h2 class="form-title">{{ title() }}</h2>
+<h2 class="form-title" data-testid="form-title">{{ title() }}</h2>
 
-<form (submit)="$event.preventDefault(); onSubmit()" class="form">
+<form (submit)="$event.preventDefault(); onSubmit()" class="form" data-testid="login-form">
   <app-input-field
+    data-testid="input-email"
     label="Correo"
     type="email"
     placeholder="example@gmail.com"
@@ -11,6 +12,7 @@
   />
 
   <app-input-field
+    data-testid="input-password"
     label="Contraseña"
     type="password"
     placeholder="******"
@@ -20,6 +22,7 @@
   />
 
   <app-toggle-button-group
+    data-testid="toggle-mode"
     [options]="toggleOptions"
     [activeIndex]="activeToggleIndex()"
     (activeIndexChange)="onToggleChange($event)"

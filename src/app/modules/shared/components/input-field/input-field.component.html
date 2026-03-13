@@ -8,10 +8,11 @@
     (blur)="onBlur()"
     [placeholder]="placeholder()"
     [class.invalid]="isInvalid()"
+    [attr.data-testid]="'field-' + type()"
   />
   @for (error of errors(); track error) {
     @if (touched()) {
-      <span class="error-message">{{ error }}</span>
+      <span class="error-message" data-testid="error-message">{{ error }}</span>
     }
   }
 </div>

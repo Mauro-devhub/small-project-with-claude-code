@@ -1,4 +1,4 @@
-# MCP Test
+# About Project
 
 This project is a personal sandbox to test and study **Claude Code** — understanding how it works, how it handles context, agents, skills, MCP servers, and everything related to incrementing developer productivity by delegating development tasks to AI.
 
@@ -18,14 +18,21 @@ This project is a personal sandbox to test and study **Claude Code** — underst
 - Reactive forms with Angular Forms module
 - Routing with Angular Router
 
+## Mcp's
+
+- Locally I have install figma MCP to AI get nodes design from project figma and develop code and UI
+
 ## Tech Stack
 
-- **Angular** 19.2
-- **NgRx Signals** 19.2 — state management based on Angular Signals
-- **@angular-architects/ngrx-toolkit** — Redux DevTools integration for NgRx Signals
-- **RxJS** 7.8
-- **TypeScript** 5.7
-- **Karma + Jasmine** — unit testing
+| Category | Tool | Version | Description |
+|---|---|---|---|
+| Framework | **Angular** | 19.2 | Core application framework with standalone components |
+| Language | **TypeScript** | 5.7 | Typed superset of JavaScript |
+| State Management | **NgRx Signals** | 19.2 | State management based on Angular Signals |
+| DevTools | **@angular-architects/ngrx-toolkit** | 19.5 | Redux DevTools integration for NgRx Signals |
+| Reactive | **RxJS** | 7.8 | Reactive programming with observables |
+| Unit Testing | **Karma** + **Jasmine** | 6.4 / 5.6 | Test runner and assertion framework |
+| E2E Testing | **Playwright** | 1.58 | End-to-end testing across Chromium and Firefox |
 
 ## Prerequisites
 
@@ -68,3 +75,8 @@ npm start
 | `npm run build` | Build for production |
 | `npm run watch` | Build in watch mode (development) |
 | `npm test` | Run unit tests with Karma |
+| `npm run test:e2e` | Run E2E tests with Playwright |
+| `npm run test:e2e:headed` | Run E2E tests with visible browser |
+| `npm run test:e2e:ui` | Open Playwright interactive UI mode |
+| `npm run test:e2e:debug` | Run E2E tests in debug mode |
+| `npm run test:e2e:report` | Open Playwright HTML report |

@@ -5,6 +5,7 @@
       class="toggle-btn"
       [class.active]="isActive(i)"
       (click)="selectOption(i)"
+      [attr.data-testid]="'toggle-option-' + i"
     >{{ option }}</button>
   }
 </div>
