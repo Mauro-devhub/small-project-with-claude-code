@@ -1,11 +1,11 @@
-<div class="home-container">
+<div class="home-container" data-testid="home-container">
   <app-dashboard-header
     [userEmail]="authStore.userEmail()"
     (menuClick)="onMenuClick()"
     (avatarClick)="onAvatarClick()"
   />
 
-  <main class="home-content">
+  <main class="home-content" data-testid="home-content">
     <!-- Contenido del dashboard -->
   </main>
 </div>
