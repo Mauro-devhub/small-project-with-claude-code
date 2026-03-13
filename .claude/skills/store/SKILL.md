@@ -1,14 +1,6 @@
 ---
 name: ngrx-signals-store
-description:
-  Genera y estructura el manejo de estado con NgRx SignalStore (@ngrx/signals) siguiendo
-  un patrón único y consistente para operaciones CRUD en proyectos Angular 19+.
-  Usa esta skill cuando el usuario pida manejar estado, crear un store, agregar efectos,
-  conectar un servicio al estado, manejar listas de datos, loading states, errores,
-  paginación, o cualquier flujo reactivo dentro de un módulo. También aplica cuando
-  se mencionen palabras como: store, estado, signals, slice, actions, effects, o CRUD
-  de entidades. Actívala incluso si la solicitud es vaga como "maneja el estado del
-  módulo de usuarios" o "agrega el store para productos".
+description: "Genera y estructura el manejo de estado con NgRx SignalStore (@ngrx/signals) siguiendo un patrón único y consistente para operaciones CRUD en proyectos Angular 19+. Usa esta skill cuando el usuario pida manejar estado, crear un store, agregar efectos, conectar un servicio al estado, manejar listas de datos, loading states, errores, paginación, o cualquier flujo reactivo dentro de un módulo. También aplica cuando se mencionen palabras como store, estado, signals, slice, actions, effects, o CRUD de entidades. Actívala incluso si la solicitud es vaga como 'maneja el estado del módulo de usuarios' o 'agrega el store para productos'."
 ---
 
 # NgRx Signals Store Skill

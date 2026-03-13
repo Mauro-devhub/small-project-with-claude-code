@@ -1,14 +1,6 @@
 ---
 name: playwright
-description:
-  Define y genera tests end-to-end (E2E) con Playwright para proyectos Angular 19+.
-  Usa esta skill cuando el usuario pida escribir tests E2E, pruebas de integración visual,
-  flujos de usuario, navegación, formularios, autenticación, interacciones del DOM,
-  screenshots, o cualquier verificación de comportamiento desde el navegador.
-  También aplica cuando se mencionen palabras como: playwright, e2e, end-to-end,
-  flujo completo, prueba de navegador, test de pantalla, page object, locator, expect
-  visual, fill, click, navigate, screenshot. Actívala incluso si la solicitud es vaga
-  como "escribe las pruebas E2E del login" o "agrega playwright al módulo de usuarios".
+description: "Define y genera tests end-to-end (E2E) con Playwright para proyectos Angular 19+. Usa esta skill cuando el usuario pida escribir tests E2E, pruebas de integración visual, flujos de usuario, navegación, formularios, autenticación, interacciones del DOM, screenshots, o cualquier verificación de comportamiento desde el navegador. También aplica cuando se mencionen palabras como playwright, e2e, end-to-end, flujo completo, prueba de navegador, test de pantalla, page object, locator, expect visual, fill, click, navigate, screenshot. Actívala incluso si la solicitud es vaga como 'escribe las pruebas E2E del login' o 'agrega playwright al módulo de usuarios'."
 ---
 
 # Angular Playwright Testing Skill

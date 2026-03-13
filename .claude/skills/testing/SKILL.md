@@ -1,14 +1,6 @@
 ---
 name: angular-testing
-description:
-  Define y genera tests unitarios y de integración para proyectos Angular 19+ con
-  standalone components usando Karma + Jasmine. Usa esta skill cuando el usuario pida
-  escribir tests, specs, pruebas unitarias, pruebas de integración, coverage, mocks,
-  spies, o cualquier verificación de comportamiento de componentes, servicios, stores,
-  pipes, guards o directivas. También aplica cuando se mencionen palabras como: test,
-  spec, it(), describe(), expect(), TestBed, fakeAsync, spy, mock, stub, coverage.
-  Actívala incluso si la solicitud es vaga como "escribe las pruebas para el servicio
-  de usuarios" o "agrega tests al store de productos".
+description: "Define y genera tests unitarios y de integración para proyectos Angular 19+ con standalone components usando Karma + Jasmine. Usa esta skill cuando el usuario pida escribir tests, specs, pruebas unitarias, pruebas de integración, coverage, mocks, spies, o cualquier verificación de comportamiento de componentes, servicios, stores, pipes, guards o directivas. También aplica cuando se mencionen palabras como test, spec, it(), describe(), expect(), TestBed, fakeAsync, spy, mock, stub, coverage. Actívala incluso si la solicitud es vaga como 'escribe las pruebas para el servicio de usuarios' o 'agrega tests al store de productos'."
 ---
 
 # Angular Testing Skill
